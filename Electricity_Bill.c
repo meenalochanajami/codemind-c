@@ -3,16 +3,16 @@ int main()
 {
     int u;
     scanf("%d",&u);
-    float c,b,su,t;
+    float c,b,t,su;
     if(u<=199)
     {
         c=1.20;
     }
-    else if (u>=200&&u<400)
+    else if(u>=200&&u<400)
     {
         c=1.40;
     }
-    else if(u>=200&&u<600)
+    else if(u>=400&&u<600)
     {
         c=1.60;
     }
@@ -20,7 +20,7 @@ int main()
     {
         c=1.80;
     }
-    else 
+    else
     {
         c=2.00;
     }
@@ -33,7 +33,7 @@ int main()
 ",b);
     if(b>=400)
     {
-        su=b*0.15;
+        su=0.15*b;
     }
     else
     {
