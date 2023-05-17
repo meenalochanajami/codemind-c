@@ -1,14 +1,16 @@
 #include<stdio.h>
 int main()
 {
-    int q,r,n,s=0;
+    int n,r,s;
     scanf("%d",&n);
-    q=n;
-    while(n!=0)
+    s=0;
+    while(n)
     {
         r=n%10;
-        n=n/10;
         s=s*10+r;
+        n=n/10;
     }
     printf("%d",s);
+    
+    
 }
