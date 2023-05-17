@@ -1,13 +1,18 @@
 #include<stdio.h>
 int main()
 {
-    int a=0,b=1,c,i,n;
+    int n,a,b,c,i;
     scanf("%d",&n);
-    for(i=1;i<=n;i++)
-    {
-        printf("%d ",a);
-        c=a+b;
-        a=b;
-        b=c;
-    }
+    a=0;
+    b=1;
+for(i=1;i<=n;i++)
+{
+    printf("%d ",a);
+    c=a+b;
+    a=b;
+    b=c;
 }
+}
+
+   
+
